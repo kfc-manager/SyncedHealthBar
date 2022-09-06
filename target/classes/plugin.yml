@@ -1,0 +1,20 @@
+name: SyncedHealthBar
+version: '1.0'
+main: com.kalle.syncedhealthbar.Main
+api-version: 1.19
+commands:
+  createHB:
+    usage: /<command> <health bar name>
+    description: A command to create a health bar.
+  deleteHB:
+    usage: /<command> <health bar name>
+    description: A command to delete a health bar.
+  addHB:
+    usage: /<command> <player name> <health bar name>
+    description: A command to add a player to a health bar.
+  removeHB:
+    usage: /<command> <player name>
+    description: A command to remove a player from his assigned health bar.
+  listHB:
+    usage: /<command> <health bar name>
+    description: A command to list all the players assigned to a health bar.
